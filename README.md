@@ -59,5 +59,5 @@ Eloquent JavaScript
 Your Name - Ankit Bisht
 
 GitHub: AnkitBisht1317
-Email: your-ankitbisht805727@gmail.com
+Email:ankitbisht805727@gmail.com
 
