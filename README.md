@@ -66,11 +66,5 @@ This project is a basic demonstration of how to:
 - Ensure that both `Hello.html` and `Hello.js` are in the same directory to avoid file path issues.
 - Use the console to test additional JavaScript expressions interactively.
 
-## Screenshot
-Below is a screenshot of the running project with the console logs:
-
-![Screenshot](Screenshot%202025-01-23%20110216.png)
-
----
 
 For any issues or suggestions, feel free to contribute or raise a pull request!
