@@ -35,9 +35,6 @@ This project is a simple example of a web page displaying "Hello World" and logg
 ```javascript
 console.log('Hello world')
 ```
-
-![Image](https://github.com/user-attachments/assets/bfa3a585-9eb9-48d3-afc6-0cf10ccda46f)
-
 **Description:**
 - Logs "Hello world" to the browser console for debugging or demonstration purposes.
 
