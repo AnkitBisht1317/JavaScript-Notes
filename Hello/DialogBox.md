@@ -5,8 +5,6 @@ In web development, alert, confirm, and prompt boxes are JavaScript pop-up dialo
 #### Purpose: Displays a message to the user and waits for the user to acknowledge it by clicking "OK."
 #### Use Case: Used to show important information, warnings, or notifications that require user attention.
 ```html
-html
-Copy
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,8 +25,6 @@ Copy
 #### Purpose: Displays a message with two buttons: "OK" and "Cancel." It returns true if the user clicks "OK" and false if the user clicks "Cancel."
 #### Use Case: Used to ask the user for confirmation before performing an action (e.g., deleting a file, submitting a form).
 ```html
-html
-Copy
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,8 +50,6 @@ Copy
 #### Purpose: Displays a message and a text input field. It returns the user's input as a string if the user clicks "OK" or null if the user clicks "Cancel."
 #### Use Case: Used to get input from the user (e.g., asking for a name, age, or other information).
 ```html
-html
-Copy
 <!DOCTYPE html>
 <html>
 <head>
