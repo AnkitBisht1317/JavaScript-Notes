@@ -7,9 +7,9 @@ JavaScript provides several comparison operators to compare values. These operat
 - ===	Strictly equal (checks both value and type)	
 - !=	Not equal (loose inequality)	
 - !==	Strictly not equal (value or type mismatch)	
-- >	Greater than	
+- >Greater than	
 - <	Less than	
-- >=	Greater than or equal to
+- >=Greater than or equal to
 - <=	Less than or equal to
 
 ```javascript
