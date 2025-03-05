@@ -1,4 +1,4 @@
-# String Methods and Properties in JavaScript
+## String Methods and Properties in JavaScript
 Introduction
 Before diving into string methods and properties, it's important to know that strings are indexed. This means we can access individual characters in a string using their index.
 
