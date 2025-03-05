@@ -2,12 +2,12 @@
 JavaScript provides various mathematical operators to perform arithmetic operations.
 
 ## Operator	Description	Example	Result
-- +	Addition	5 + 3	8
-- -	Subtraction	5 - 3	2
-- *	Multiplication	5 * 3	15
-- /	Division	5 / 2	2.5
-- %	Remainder (Modulo)	5 % 2	1
-- **	Exponentiation (Power)	5 ** 2	25
+- Addition	5 + 3	8
+- Subtraction	5 - 3	2
+- Multiplication	5 * 3	15
+- Division	5 / 2	2.5
+- Remainder (Modulo)	5 % 2	1
+- Exponentiation (Power)	5 ** 2	25
  	
 ## Math Object in JavaScript
 JavaScript provides a built-in Math object that includes properties and methods for mathematical calculations.
