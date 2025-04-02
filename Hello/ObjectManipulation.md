@@ -84,4 +84,39 @@ user.pata = "indranagar"; // ❌ Not allowed
 user.pata = "indranagar"; // ❌ Not added
 user.firstName = "Sagar"; // ❌ Not changed
 delete user.age; // ❌ Not deleted
-``` 
+```
+
+## Question - How to copy two or more object? 
+```javascript
+const user1 = {
+  firstName: 'Anurag',
+  lastName: 'Singh',
+};
+const user2 = user1;
+console.log(user2.lastName='Panday')
+```
+- In this case lastName panday update both object (user1 and user2) because in this method both object memory location is same so if we perform any change of any object they automatically change another object .
+
+### Right WAY (Shallow Cpoy)
+```javascript
+const user1 = {
+  firstName: 'Anurag',
+  lastName: 'Singh',
+};
+const user2 = {}; 
+Object.assign(user2, user1);
+console.log(user2.lastName='Panday');
+console.log(user1); // { firstName: 'Anurag', lastName: 'Singh' }
+console.log(user2); // { firstName: 'Anurag', lastName: 'Panday' }
+```
+```javascript
+const user1 = {
+  firstName: 'Anurag',
+  lastName: 'Singh',
+};
+const user2 = { ...user1 };
+console.log(user2.lastName='Panday');
+console.log(user1); // { firstName: 'Anurag', lastName: 'Singh' }
+console.log(user2); // { firstName: 'Anurag', lastName: 'Panday' }
+```
+- A shallow copy creates a new object that contains the same references to the original object's properties. if we perform any change in user2 they not reflect on user1 because user1 and user2 have diffrent address
