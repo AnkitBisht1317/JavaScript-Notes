@@ -68,7 +68,8 @@ getData(showData);
 ```
 
 ### Anonymous Functions
-Functions without a name.
+- Functions without a name.
+- in this case if we access function before creation the ive us error.
 ```js
 let x = function () {
   console.log("Anonymous function");
