@@ -27,12 +27,12 @@
 ##  Global Scope:
       Window Object (Browser Global)	        Script Scope
       a = 50	                                username = 'Ankit'
-      add = function()	                      age = 25
+      add = function()	                        age = 25
 - Note: Only var and function declarations are attached to the window object. let and const are not.
 
  ## ✅ Local Scope (Inside add() function):
     Variable	        Scope
-    x = 5	            Local
-    y = 10	           Local
+    x = 5	             Local
+    y = 10	            Local
 - These are accessible only inside the add() function and not from the outside.
 
